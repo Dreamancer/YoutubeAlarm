@@ -1,0 +1,4 @@
+YoutubeAlarm.MainActivity, YoutubeAlarm;md5d8481eced5a5f1583f05b01482e7939e.MainActivity
+YoutubeAlarm.MainActivity, YoutubeAlarm, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md5d8481eced5a5f1583f05b01482e7939e.MainActivity
+YoutubeAlarm.MainActivity;md5d8481eced5a5f1583f05b01482e7939e.MainActivity
+youtubealarm.MainActivity;md5d8481eced5a5f1583f05b01482e7939e.MainActivity
