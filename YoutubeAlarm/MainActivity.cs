@@ -1,10 +1,13 @@
 ﻿using System;
+using System.Linq;
 using Android.App;
 using Android.Content;
 using Android.Runtime;
 using Android.Views;
 using Android.Widget;
 using Android.OS;
+using System.Collections.Generic;
+using YoutubeExtractor;
 
 namespace YoutubeAlarm
 {
@@ -25,10 +28,15 @@ namespace YoutubeAlarm
             Button button = FindViewById<Button>(Resource.Id.MyButton);
             EditText edText = FindViewById<EditText>(Resource.Id.queryText);
 
-            button.Click += async delegate {
-                var searchListResult = await YTHelper.Search(edText.Text, 50);
-                Wait(100);
+            button.Click += async delegate
+            {
+                var results =  await YTHelper.Search(edText.Text, 50);
+                var result = results.First();
 
+                if(await YTHelper.DownloadAudio(result.Value, "downloads/"))
+                {
+                    Toast.MakeText(this, String.Format("Audio of {0} finished downloading!", result.Key),ToastLength.Short);
+                }
             };
         }
     }

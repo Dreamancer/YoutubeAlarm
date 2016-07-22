@@ -90,6 +90,9 @@
       <HintPath>..\packages\YoutubeExtractor.0.10.11\lib\portable-net45+win8+wpa81+wp8\YoutubeExtractor.dll</HintPath>
       <Private>True</Private>
     </Reference>
+    <Reference Include="YTHelper">
+      <HintPath>..\..\..\..\Documents\Visual Studio 2015\Projects\YTHelper\YTHelper\bin\Release\YTHelper.dll</HintPath>
+    </Reference>
     <Reference Include="Zlib.Portable, Version=1.11.0.0, Culture=neutral, PublicKeyToken=431cba815f6a8b5b, processorArchitecture=MSIL">
       <HintPath>..\packages\Zlib.Portable.Signed.1.11.0\lib\portable-net4+sl5+wp8+win8+wpa81+MonoTouch+MonoAndroid\Zlib.Portable.dll</HintPath>
       <Private>True</Private>
@@ -99,7 +102,6 @@
     <Compile Include="MainActivity.cs" />
     <Compile Include="Resources\Resource.Designer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="YTHelper.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="app.config" />
