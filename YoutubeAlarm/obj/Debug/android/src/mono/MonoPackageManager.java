@@ -109,6 +109,7 @@ class MonoPackageManager_Resources {
 		"System.Net.Http.Extensions.dll",
 		"System.Net.Http.Primitives.dll",
 		"YoutubeExtractor.dll",
+		"YTHelper.dll",
 		"Zlib.Portable.dll",
 		"Java.Interop.dll",
 		"System.Runtime.dll",

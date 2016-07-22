@@ -90,7 +90,8 @@
       <HintPath>..\packages\YoutubeExtractor.0.10.11\lib\portable-net45+win8+wpa81+wp8\YoutubeExtractor.dll</HintPath>
       <Private>True</Private>
     </Reference>
-    <Reference Include="YTHelper">
+    <Reference Include="YTHelper, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
       <HintPath>..\..\..\..\Documents\Visual Studio 2015\Projects\YTHelper\YTHelper\bin\Release\YTHelper.dll</HintPath>
     </Reference>
     <Reference Include="Zlib.Portable, Version=1.11.0.0, Culture=neutral, PublicKeyToken=431cba815f6a8b5b, processorArchitecture=MSIL">
